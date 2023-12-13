@@ -1,5 +1,60 @@
+
+
 body {
-  width: 100%;
-  height: 100%;
+  font-family: Arial, sans-serif;
   margin: 0;
-}
+  padding: 0;
+  color: #333;
+ }
+ 
+ header {
+  background-color: #4c7aaf;
+  padding: 20px;
+  color: white;
+  text-align: center;
+ }
+ 
+ nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+ }
+ 
+ nav a:hover {
+  text-decoration: underline;
+ }
+ 
+ section#featured-property {
+  text-align: center;
+  padding: 20px;
+ }
+ 
+ section#featured-property img {
+  max-width: 100%;
+  height: auto;
+ }
+ 
+ section#featured-property figcaption {
+  font-size: 14px;
+  color: #777;
+ }
+ 
+ section#details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+ }
+ 
+ section#details div {
+  margin: 0 20px;
+ }
+ 
+ section#details h3 {
+  margin-bottom: 10px;
+ }
+ 
+ section#details p {
+  margin: 0;
+ }
+ 
